@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Hamza Maswedeh | Software Engineer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #0f172a;
+      color: #e5e7eb;
+    }
+    header {
+      padding: 2rem 10%;
+      border-bottom: 1px solid #1f2937;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+    header p {
+      margin: 0.25rem 0 0;
+      color: #9ca3af;
+    }
+    main {
+      padding: 2rem 10%;
+      max-width: 900px;
+    }
+    section {
+      margin-bottom: 2rem;
+    }
+    h2 {
+      font-size: 1.4rem;
+      margin-bottom: 0.5rem;
+      border-bottom: 1px solid #1f2937;
+      padding-bottom: 0.3rem;
+    }
+    .project {
+      margin-bottom: 1rem;
+    }
+    .project h3 {
+      margin: 0 0 0.2rem;
+    }
+    .tag {
+      display: inline-block;
+      font-size: 0.8rem;
+      background: #1e293b;
+      padding: 0.15rem 0.4rem;
+      border-radius: 999px;
+      margin-right: 0.3rem;
+      margin-top: 0.2rem;
+    }
+    a {
+      color: #38bdf8;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      padding: 1.5rem 10%;
+      border-top: 1px solid #1f2937;
+      font-size: 0.9rem;
+      color: #9ca3af;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Hamza Maswedeh</h1>
+    <p>Software Engineer · Backend, Cloud & On-Prem Systems</p>
+    <p>
+      <a href="mailto:hamza.maswedeh.1998@gmail.com">hamza.maswedeh.1998@gmail.com</a> ·
+      <a target="_blank" href="https://www.linkedin.com/in/hamza-maswedah-1a0334155">LinkedIn</a> ·
+      <a target="_blank" href="https://github.com/YOUR_GITHUB_USERNAME">GitHub</a>
+    </p>
+  </header>
+
+  <main>
+    <section>
+      <h2>About</h2>
+      <p>
+        Software Engineer with experience building and operating production systems across backend, frontend,
+        and fully isolated on-premise environments. Worked with enterprise customers on architecture, deployment,
+        and incident response. Comfortable with Python, Go, React, Docker, CI/CD, Elasticsearch, MongoDB, Azure.
+      </p>
+    </section>
+
+    <section>
+      <h2>Featured Work</h2>
+
+      <div class="project">
+        <h3>On-Prem SaaS Deployment for Applied Materials</h3>
+        <p>
+          Led the transformation of a cloud-native SaaS product into a 100% air-gapped, on-premise solution for
+          an enterprise customer. Designed authentication, monitoring, Docker-based deployment, and offline update mechanisms.
+        </p>
+        <div>
+          <span class="tag">Python</span>
+          <span class="tag">Go</span>
+          <span class="tag">Docker</span>
+          <span class="tag">On-Prem</span>
+        </div>
+      </div>
+
+      <div class="project">
+        <h3>Virtual Try-On "3D Mirror"</h3>
+        <p>
+          System to generate a 3D mannequin from user images/measurements for virtual apparel try-ons.
+        </p>
+        <div>
+          <span class="tag">Computer Vision</span>
+          <span class="tag">3D</span>
+        </div>
+      </div>
+
+      <div class="project">
+        <h3>Dispatcher – React Native News App</h3>
+        <p>
+          Mobile app built in React Native allowing users to browse news, create accounts, and save articles.
+        </p>
+        <div>
+          <span class="tag">React Native</span>
+          <span class="tag">REST API</span>
+          <span class="tag">Auth</span>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Experience</h2>
+      <p><strong>Software Engineer · Korra (2023 – Present)</strong></p>
+      <p>
+        Backend & frontend development (Python, Go, React/TypeScript), REST APIs, Elasticsearch/MongoDB,
+        Dockerized services, on-prem customer deployments, and production support.
+      </p>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p>
+        For opportunities or collaboration, feel free to reach out at
+        <a href="mailto:hamza.maswedeh.1998@gmail.com">hamza.maswedeh.1998@gmail.com</a>.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    &copy; <span id="year"></span> Hamza Maswedeh
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
